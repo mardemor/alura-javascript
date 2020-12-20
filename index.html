@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Aparecida Nutrição</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+
+</head>
+
+<body>
+
+	<header>
+
+		<h1>Aparecida Nutrição</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="lista.html">Pacientes</a></li>
+				<li><a href="adiciona.html">Adicionar</a></li>
+			</ul>
+		</nav>
+
+	</header>
+	<main class="container">
+		<h2>IMC - Índice de Massa Corporal</h2>
+		<p>
+			O IMC é uma medida internacional que serve para avaliar se a pessoa está dentro do seu 
+			peso ideal em relação à altura. Valores de IMC acima ou abaixo dos limites considerados 
+			ideais, podem representar riscos a saúde do indivíduo.
+		</p>
+		<p>O cálculo do IMC é obtido através da fórmula:</p>
+		<div class="formula-imc">
+			<div class="formula-imc-resultado">imc = </div><div class="formula-imc-equacao">peso<hr>( altura x altura )</div>
+		</div>
+		<p>
+			A seguir estão algumas faixas de valores de IMC para adultos não idosos. Para crianças e idosos 
+			estas definições podem variar. 
+		</p>
+		<p>
+		<ul class="medidas-imc">
+			<li>IMC &lt; 17 &rArr; Muito abaixo do peso</li>
+			<li>17 &le; IMC &lt; 18,5 &rArr; Abaixo do peso</li>
+			<li>18,5 &le; IMC &lt; 25 &rArr; Peso normal</li>
+			<li>25 &le; IMC &lt; 30 &rArr; Acima do peso</li>
+			<li>30 &le; IMC &lt; 35 &rArr; Obesidade I</li>
+			<li>35 &le; IMC &lt; 40 &rArr; Obesidade II (severa)</li>
+			<li>IMC &gt; 40 &rArr; Obesidade III (mórbida)</li>
+		</ul>
+		</p>
+	</main>
+
+	<script src="js/Paciente.js"></script>
+	<script src="js/StoragePacientes.js"></script>
+	<script src="js/eventos-index.js"></script>
+
+</body>
+
+</html>

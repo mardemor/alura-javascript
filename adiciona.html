@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Aparecida Nutrição</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/adiciona.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Aparecida Nutrição</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lista.html">Pacientes</a></li>
+                <li><a href="adiciona.html">Adicionar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 id="titulo-form">Adicionar novo paciente</h2>
+        <ul id="ul-erros-adiciona">
+        </ul>
+        <form id="form-adiciona">
+            <div class="grupo">
+                <label for="nome">Nome</label>
+                <input id="nome" class="campo" name="nome" type="text" placeholder="digite o nome">
+            </div>
+            <div class="grupo">
+                <label for="peso">Peso</label>
+                <input id="peso" class="campo" name="peso" type="text" placeholder="digite o peso">
+            </div>
+            <div class="grupo">
+                <label for="altura">Altura</label>
+                <input id="altura" class="campo" type="text" placeholder="digite a altura">
+            </div>
+            <div class="grupo">
+                <label for="gordura">% de Gordura</label>
+                <input id="gordura" class="campo" type="text" placeholder="digite a porcentagem de gordura">
+            </div>
+
+            <button id="button-adicionar">Adicionar</button>
+        </form>
+    </main>
+
+    <script src="js/Paciente.js"></script>
+    <script src="js/StoragePacientes.js"></script>
+    <script src="js/FormPacientes.js"></script>
+    <script src="js/eventos-adiciona.js"></script>
+
+</body>
+
+</html>

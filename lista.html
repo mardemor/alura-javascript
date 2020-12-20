@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="UTF-8">
+	<title>Aparecida Nutrição</title>
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/lista.css">
+
+</head>
+
+<body>
+
+	<header>
+		<h1>Aparecida Nutrição</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="lista.html">Pacientes</a></li>
+				<li><a href="adiciona.html">Adicionar</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main class="container">
+		<h2>Lista de pacientes</h2>
+		<div class="grupo">
+			<label for="filtrar-tabela">Filtrar</label>
+			<input id="input-filtro" class="campo" type="text" placeholder="digite o nome">
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>Nome</th>
+					<th>Peso (kg)</th>
+					<th>Altura (m)</th>
+					<th>Gordura Corporal (%)</th>
+					<th>IMC</th>
+				</tr>
+			</thead>
+			<tbody id="tabela-pacientes">
+			</tbody>
+			<tfoot>
+				<th colspan="5"></th>
+			</tfoot>
+		</table>
+
+		<span id="erro-busca" class="invisivel"></span>
+		<button id="button-busca">Buscar Pacientes</button>
+	</main>
+
+	<script src="js/Paciente.js"></script>
+	<script src="js/StoragePacientes.js"></script>
+	<script src="js/TabelaPacientes.js"></script>
+	<script src="js/eventos-lista.js"></script>
+
+</body>
+
+</html>

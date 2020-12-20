@@ -1,0 +1,37 @@
+header {
+	position: relative;
+	background-color: #555555;
+	padding: 0 2em;
+}
+
+header h1 {
+	padding: 10px 30px;
+	height: 120px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color:maroon;
+	color: white;
+	font-size: 2.5em;	
+}
+
+header nav {
+	position: absolute;
+	display: inline-block;
+	right: 20px;
+	bottom: 5px;
+}
+
+header li {
+	display:inline;
+	padding-left: 1em;
+}
+
+header a {
+	font-size: 1.2em;
+	color: #AAAAAA;
+	text-decoration: none;
+}
+
+header a:hover {
+    color: #DDDDDD;
+}
