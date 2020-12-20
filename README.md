@@ -1,6 +1,6 @@
 # Curso Alura Javascript
 
-<p>Este projeto foi desenvolvido como parte do curso de Javascript da escola Alura, ministrado pelo professor Douglas Ferreira.</p>
+<p>Este projeto foi desenvolvido como parte do curso <b>Javascript</b> da escola <a href="https://www.alura.com.br/">Alura</a>, ministrado pelo professor Douglas Ferreira.</p>
 <p>O curso teve a carga horária de 20 horas e é composto pelos seguintes tópicos:</p>
 <ul>
 <li>Variáveis e Operadores</li>
