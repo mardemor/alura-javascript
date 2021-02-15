@@ -12,5 +12,4 @@
 <li>Filtrando uma tabela</li>
 <li>Ajax - Buscando pacientes com AJAX</li>
 </ul>
-<p>Obs.: Foram feitas algumas adaptações no código, baseadas no curso de HTML e CSS.</p>
- 
+<p>Acesse o <a href="https://mardemor.github.io/alura-javascript/">site</a> do projeto.</p>
