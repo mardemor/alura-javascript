@@ -25,3 +25,10 @@ th{
 .paciente-invalido {
 	background: lightcoral;
 }
+
+@media (max-width: 715px) {
+	td, th {
+		padding: .5em;
+		font-size: .7rem;
+	}
+}

@@ -35,3 +35,31 @@ header a {
 header a:hover {
     color: #DDDDDD;
 }
+
+@media (max-width: 715px) {
+    header {
+		position: static;
+		padding: 0;
+	}
+	header h1 {
+		width: 100vw;
+		height: 120px;
+		display: table-cell;
+		vertical-align: middle;
+		font-size: 1.8rem;
+		text-align: center;
+	}
+	header nav {
+		width: 100%;
+		text-align: center;
+		position: static;
+		display: inline-block;
+		padding: .8rem;
+	}
+	header li {
+		padding: 0 .5rem;
+	}
+	header a {
+		font-size: 1rem;
+	}
+}

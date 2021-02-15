@@ -1,50 +1,42 @@
 *{
 	box-sizing: border-box;
  }
-
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	background-color: #EEEEEE;
 }
-
 .container {
 	padding: 3em;
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 }
-
 .container h2 {
 	color: #AAAAAA;
 	font-size: 2em;
 	display: block;
 	padding-bottom: 1em;
 }
-
 p {
 	line-height: 1.5em;
 	text-align: justify;
 	margin-bottom: 1.5em;
 }
-
 .grupo {
 	width: 60%;
 	display: block;
 	padding: 10px 0px;
 }
-
 label {
 	color: #999999;
 	display: block;
 	margin-bottom: .2em;
 }
-
 .campo {
 	border: 1px solid #CCCCCC;
 	padding: .7em;
 	width: 100%;
 }
-
 button {
 	padding: .5em 2em;
 	border: 0;
@@ -53,34 +45,41 @@ button {
 	margin: 1em 0;
 	color: #FFFFFF;
 	background-color:dodgerblue;
-	width: 12em;
+	width: 13rem;
 }
-
 button:hover {
 	color:#CCCCCC;
 }
-
 .fade-out {
 	opacity: 0;
 	transition: 0.5s;
 }
-
 .invisivel {
 	display: none;
 }
-
-
-
 .campo-invalido{
 	border: 1px solid red;
 }
-
-
-
 #ul-erros-adiciona {
 	color: red;
 }
 
-
+@media (max-width: 715px) {
+    .container {
+		padding: 1.5rem;
+		width: 100%;
+	}
+	.container h2 {
+		font-size: 1.5rem;
+		padding: 1rem 0;
+		text-align: center;
+	}
+	.grupo {
+		width: 100%;
+	}
+	button {
+		width: 100%;
+	}
+}
 
 
